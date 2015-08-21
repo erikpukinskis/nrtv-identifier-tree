@@ -3,8 +3,8 @@
   "main": "tree.js",
   "version": "0.1.0",
   "description": "Navigate a tree of unique strings",
-  "dependencies": {
-    "nrtv-library": "*"
+  "devDependencies": {
+    "nrtv-test": "*"
   },
   "scripts": {
     "test": "node test.js"

@@ -1,9 +1,9 @@
-var library = require("nrtv-library")(require)
+var test = require("nrtv-test")
+var Tree = require("./tree")
 
-library.test(
+test(
   "getting ancestors of a node",
-  ["./tree"],
-  function(expect, done, Tree) {
+  function(expect, done) {
     var tree = new Tree()
 
     tree.add("a", ["b"])
