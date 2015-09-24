@@ -1,4 +1,4 @@
-function generateConstructor() {
+var generateConstructor = function() {
   function Tree() {
     this.dependencies = {}
     this.parents = {}
