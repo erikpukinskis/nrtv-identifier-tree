@@ -1,7 +1,7 @@
 This library is useful if you want to ask some questions about a tree structure.
 
-    var Tree = require("nrtv-tree")
-    var tree = new Tree()
+    var StringTree = require("string-tree")
+    var tree = new StringTree()
 
 You just provide a string and then an array of strings that identify that string's children.
 
