@@ -1,7 +1,7 @@
 {
   "name": "string-tree",
   "main": "string-tree.js",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Navigate a tree of unique strings",
   "devDependencies": {
     "run-test": "*"
